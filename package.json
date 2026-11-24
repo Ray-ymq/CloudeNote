@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node esbuild.mjs --watch",
-    "build": "tsc --noEmit && node esbuild.mjs",
-    "test": "vitest run",
-    "check": "tsc --noEmit",
+    "dev": "node config/esbuild.mjs --watch",
+    "build": "tsc -p config/tsconfig.json --noEmit && node config/esbuild.mjs",
+    "test": "vitest run --config config/vitest.config.ts",
+    "check": "tsc -p config/tsconfig.json --noEmit",
     "package": "npm run build && node scripts/package.mjs"
   },
   "devDependencies": {
