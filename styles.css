@@ -1,0 +1,16 @@
+.cloudnote { padding: 12px 20px 32px; max-width: 1200px; margin: auto; }
+.cloudnote-heading, .cloudnote-actions, .cloudnote-nav { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 16px; }
+.cloudnote-heading h2 { margin-right: auto; }
+.cloudnote-nav { border-bottom: 1px solid var(--background-modifier-border); padding-bottom: 14px; }
+.cloudnote-nav button[aria-current="page"] { color: var(--text-on-accent); background: var(--interactive-accent); }
+.cloudnote-muted { color: var(--text-muted); line-height: 1.6; }
+.cloudnote-banner { padding: 20px; border: 1px solid var(--background-modifier-border); border-radius: 10px; background: var(--background-secondary); margin-bottom: 20px; }
+.cloudnote-error, .cloudnote-conflict { border-color: var(--text-warning); }
+.cloudnote-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; margin-bottom: 18px; }
+.cloudnote-card { border: 1px solid var(--background-modifier-border); border-radius: 8px; padding: 16px; margin-bottom: 12px; overflow-wrap: anywhere; }
+.cloudnote-card button { margin: 4px 8px 4px 0; }
+.cloudnote-stats strong { font-size: 26px; }
+.cloudnote-compare { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.cloudnote pre { max-height: 420px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; padding: 12px; background: var(--background-secondary); user-select: text; }
+.cloudnote-changes { max-height: 280px; overflow: auto; }
+@media (max-width: 700px) { .cloudnote-compare { grid-template-columns: 1fr; } .cloudnote { padding: 10px; } }

@@ -1,0 +1,9 @@
+{
+  "id": "cloudnote",
+  "name": "云笺 Cloudnote",
+  "version": "0.1.0",
+  "minAppVersion": "1.6.0",
+  "description": "通过本机 Git 和 SSH 同步知识库，保留历史、冲突双方和恢复记录。",
+  "author": "Cloudnote",
+  "isDesktopOnly": true
+}
