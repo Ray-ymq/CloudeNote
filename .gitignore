@@ -15,6 +15,9 @@ coverage/
 plan.md
 rabbish/
 
+# WorkBuddy workspace metadata
+.workbuddy-ai/
+
 # Editor and operating system files
 .idea/
 .vscode/
